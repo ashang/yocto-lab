@@ -1,0 +1,145 @@
+# Build
+autom4te.cache/
+config.guess
+config.log
+config.status
+config.sub
+/configure
+/Makefile
+/Makefile.in
+/aclocal.m4
+/install-sh
+/libtool
+/ltmain.sh
+missing
+compile
+*.[ao]
+*.o.cmd
+*.dbg
+*.ko
+*.ko.cmd
+*.mod.c
+*.so
+*.lo
+dist/
+build/
+build_deb/
+build_image/
+ramdisk_deb/
+ram_disk/
+output/
+a.out
+
+Module.symvers
+modules.order
+
+#/coverage/
+.coverage
+/coverage/
+/spec/tmp
+*.html
+*.pdf
+*.epub
+*.mobi
+/images/
+**.orig
+rerun.txt
+
+
+# Mac
+.DS_Store*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Icon?
+!/Library/
+/Library/LinkedKegs
+/Library/PinnedKegs
+/Library/Taps
+
+
+# Windows
+*.com
+*.dll
+*.exe
+Thumbs.db
+[Dd]esktop.ini
+
+
+# Temp
+~*
+._*
+.lock*
+.~lock.*
+*.bak
+#tmp/
+*.tmp
+@eaDir
+@SynoResource
+.@__thumb
+
+## Vi
+*~
+*.sw[po]
+
+
+# Packages
+*.7z
+*.dmg
+*.gz
+*.xz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+db/*.sqlite3
+db/*.sqlite3-journal
+db.ini
+deploy_key_rsa
+
+
+# Python
+*.py[cod~]
+*.egg
+*.egg-info
+*.whl
+.python_history
+.ipython/
+
+
+# Documentation
+site/
+#env/
+htmlcov/
+.tox/
+/doc/tags
+mkdocs.egg-info/
+
+## sensitive information
+sites/*/settings*.php
+config/initializers/secret_token.rb
+config/secrets.yml
+
+## generated content
+public/uploads
+/public/system
+sites/*/files
+sites/*/private
+
+# misc embedded
+*.dtb
+md5sums
+uImage
+*.rng
+
+# Tcl
+.tmp_versions
+test-driver
+
